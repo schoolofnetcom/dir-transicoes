@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+
+        @keyframes rotateIn {
+          0% {
+            opacity: 0;
+          }
+          30% {
+            transform: rotate(360deg);
+          }
+          100% {
+            opacity: 1;
+            transform: rotate(0deg);
+          }
+        }
+
+        @keyframes zoomIn {
+          0% {
+            opacity: 0;
+          }
+          30% {
+            font-size: 4rem;
+          }
+          100% {
+            opacity: 1;
+          }
+        }
+        @keyframes fadeIn {
+          0% {
+            opacity: 0;
+          }
+          100% {
+            opacity: 1;
+          }
+        }
+        @keyframes fadeOut {
+          0% {
+            opacity: 1;
+          }
+          100% {
+            opacity: 0;
+            display: none;
+          }
+        }
+
+        .ani {
+            animation: fadeIn 3s infinite;
+        }
+    </style>
+</head>
+<body>
+    <div class="ani">School of net animation CSS</div>
+</body>
+</html>
